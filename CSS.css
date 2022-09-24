@@ -1,0 +1,49 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #b2f7ef;
+  /* background-image: url(img/gif2.gif); */
+  /* background-position: 200%; */
+}
+
+.body {
+  min-height: 5000px;
+  margin: auto;
+}
+
+#project {
+  background-color: #b2f7ef;
+}
+
+.carousel-inner {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fontHelp {
+  padding-bottom: 10%;
+}
+
+#pnedd {
+  padding-top: 10%;
+  margin-top: 5rem;
+}
+
+.pabout {
+  padding-top: 20%;
+}
+
+.col h2 {
+  padding-top: 5%;
+}
+
+section {
+  padding-top: 3rem;
+}
+.card {
+  display: flex;
+}
+
+.col-4 {
+  padding-top: 50px;
+}
