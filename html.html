@@ -138,11 +138,11 @@
   <!-- my skill -->
   <section id="skill" style="background-color: #b2f7ef;">
     <div class=" container">
-    <div class="row">
-      <div class="col pb-3 text-center">
-        <h2 id="skill">My Skill</h2>
+      <div class="row">
+        <div class="col pb-3 text-center">
+          <h2 id="skill">My Skill</h2>
+        </div>
       </div>
-    </div>
     </div>
     <div class="d-flex flex-row flex-wrap justify-content-evenly ">
       <div class="col-md-4">
@@ -206,8 +206,30 @@
               <label for="pesan" class="form-label fw-bold">Pesan</label>
               <textarea class="form-control" id="pesan" rows="3"></textarea>
             </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              kirim 
+            </button>
 
-            <button type="submit" class="btn btn-primary">Kirim</button>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">verifikasi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    anda sudah mengisi data dengan benar ? 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancel</button>
+                    <button type="button" class="btn btn-primary">kirim</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
         </div>
       </div>
@@ -239,12 +261,12 @@
   <script type="text/javascript" src="vanilla-tilt.min.js"></script>
   <!-- akhir tilt js -->
   <script type="text/javascript" src="vanilla-tilt.js"></script>
-<script type="text/javascript">
-	VanillaTilt.init(document.querySelectorAll('.card'), {
-		max: 50,
-		speed: 400
-	});
-</script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll('.card'), {
+      max: 50,
+      speed: 400
+    });
+  </script>
 </body>
 
 </html>
